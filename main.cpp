@@ -39,11 +39,11 @@ cout<<endl;
 mm(vet, num, &minimo, &maximo);
 
 for (int j= 0; j < num; j++) {
-cout<<vet[j]<<"  ";
+cout<<vet[j]<<",";
    }
 
 cout<<endl;
-cout<< "Max: " << maximo << " Mim: " << minimo;
+cout<< "Max:" << maximo<< "," << " Mim:" << minimo;
  
 return 0;
 
