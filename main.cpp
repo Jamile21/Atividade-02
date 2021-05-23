@@ -33,11 +33,18 @@ vet = new int [num];
 for (i = 0; i < num; i++) {
 cout<<"Digite um numero de 0 a 9:"<<endl;
 cin>> vet[i];
+cout<<endl;
    }
 
 mm(vet, num, &minimo, &maximo);
 
+for (int j= 0; j < num; j++) {
+cout<<vet[j]<<"  ";
+   }
+
+cout<<endl;
 cout<< "Max: " << maximo << " Mim: " << minimo;
+ 
 return 0;
 
 }
