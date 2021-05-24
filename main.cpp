@@ -30,6 +30,7 @@ cin>>num;
 
 vet = new int [num];
 
+//usuario preenche o vetor
 for (i = 0; i < num; i++) {
 cout<<"Digite um numero de 0 a 9:"<<endl;
 cin>> vet[i];
@@ -38,10 +39,13 @@ cout<<endl;
 
 mm(vet, num, &minimo, &maximo);
 
+
+//saída do vetor digitado 
 for (int j= 0; j < num; j++) {
 cout<<vet[j]<<",";
-   }
+   }   
 
+//saida do Max e Min
 cout<<endl;
 cout<< "Max:" << maximo<< "," << " Mim:" << minimo;
  
